@@ -14,4 +14,8 @@ module.exports = {
       short_name: 'Music',
     },
   },
+
+  publicPath: process.env.NODE_ENV === "production" ? "/music-app-vue/" : "/",
+
+
 };
